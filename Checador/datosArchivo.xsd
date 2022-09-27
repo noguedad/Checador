@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="datosArchivo" targetNamespace="http://tempuri.org/datosArchivo.xsd" xmlns:mstns="http://tempuri.org/datosArchivo.xsd" xmlns="http://tempuri.org/datosArchivo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="datosArchivo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="datosArchivo" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="datosArchivo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Checador" msprop:Generator_RowEvHandlerName="ChecadorRowChangeEventHandler" msprop:Generator_RowDeletedName="ChecadorRowDeleted" msprop:Generator_RowDeletingName="ChecadorRowDeleting" msprop:Generator_RowEvArgName="ChecadorRowChangeEvent" msprop:Generator_TablePropName="Checador" msprop:Generator_RowChangedName="ChecadorRowChanged" msprop:Generator_UserTableName="Checador" msprop:Generator_RowChangingName="ChecadorRowChanging" msprop:Generator_RowClassName="ChecadorRow" msprop:Generator_TableClassName="ChecadorDataTable" msprop:Generator_TableVarName="tableChecador">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="noEmpleado" msprop:Generator_UserColumnName="noEmpleado" msprop:Generator_ColumnPropNameInTable="noEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="noEmpleado" msprop:Generator_ColumnVarNameInTable="columnnoEmpleado" type="xs:int" minOccurs="0" />
+              <xs:element name="noDpto" msprop:Generator_UserColumnName="noDpto" msprop:Generator_ColumnPropNameInTable="noDptoColumn" msprop:Generator_ColumnPropNameInRow="noDpto" msprop:Generator_ColumnVarNameInTable="columnnoDpto" type="xs:int" minOccurs="0" />
+              <xs:element name="nombreDepto" msprop:Generator_UserColumnName="nombreDepto" msprop:Generator_ColumnPropNameInTable="nombreDeptoColumn" msprop:Generator_ColumnPropNameInRow="nombreDepto" msprop:Generator_ColumnVarNameInTable="columnnombreDepto" type="xs:string" minOccurs="0" />
+              <xs:element name="nombreEmpleado" msprop:Generator_UserColumnName="nombreEmpleado" msprop:Generator_ColumnPropNameInTable="nombreEmpleadoColumn" msprop:Generator_ColumnPropNameInRow="nombreEmpleado" msprop:Generator_ColumnVarNameInTable="columnnombreEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="diaSemana" msprop:Generator_UserColumnName="diaSemana" msprop:Generator_ColumnPropNameInTable="diaSemanaColumn" msprop:Generator_ColumnPropNameInRow="diaSemana" msprop:Generator_ColumnVarNameInTable="columndiaSemana" type="xs:string" minOccurs="0" />
+              <xs:element name="fecha" msprop:Generator_UserColumnName="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tEntrada" msprop:Generator_UserColumnName="tEntrada" msprop:Generator_ColumnPropNameInTable="tEntradaColumn" msprop:Generator_ColumnPropNameInRow="tEntrada" msprop:Generator_ColumnVarNameInTable="columntEntrada" type="xs:string" minOccurs="0" />
+              <xs:element name="tSalida" msprop:Generator_UserColumnName="tSalida" msprop:Generator_ColumnPropNameInTable="tSalidaColumn" msprop:Generator_ColumnPropNameInRow="tSalida" msprop:Generator_ColumnVarNameInTable="columntSalida" type="xs:string" minOccurs="0" />
+              <xs:element name="tComidaS" msprop:Generator_UserColumnName="tComidaS" msprop:Generator_ColumnPropNameInTable="tComidaSColumn" msprop:Generator_ColumnPropNameInRow="tComidaS" msprop:Generator_ColumnVarNameInTable="columntComidaS" type="xs:string" minOccurs="0" />
+              <xs:element name="tComidaE" msprop:Generator_UserColumnName="tComidaE" msprop:Generator_ColumnPropNameInTable="tComidaEColumn" msprop:Generator_ColumnPropNameInRow="tComidaE" msprop:Generator_ColumnVarNameInTable="columntComidaE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="listaDpto" msprop:Generator_RowClassName="listaDptoRow" msprop:Generator_RowEvHandlerName="listaDptoRowChangeEventHandler" msprop:Generator_RowDeletedName="listaDptoRowDeleted" msprop:Generator_RowDeletingName="listaDptoRowDeleting" msprop:Generator_RowEvArgName="listaDptoRowChangeEvent" msprop:Generator_TablePropName="listaDpto" msprop:Generator_RowChangedName="listaDptoRowChanged" msprop:Generator_UserTableName="listaDpto" msprop:Generator_RowChangingName="listaDptoRowChanging" msprop:Generator_TableClassName="listaDptoDataTable" msprop:Generator_TableVarName="tablelistaDpto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="noDpto" msprop:Generator_UserColumnName="noDpto" msprop:Generator_ColumnPropNameInTable="noDptoColumn" msprop:Generator_ColumnPropNameInRow="noDpto" msprop:Generator_ColumnVarNameInTable="columnnoDpto" type="xs:int" />
+              <xs:element name="nombreDepto" msprop:Generator_UserColumnName="nombreDepto" msprop:Generator_ColumnPropNameInTable="nombreDeptoColumn" msprop:Generator_ColumnPropNameInRow="nombreDepto" msprop:Generator_ColumnVarNameInTable="columnnombreDepto" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:listaDpto" />
+      <xs:field xpath="mstns:noDpto" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
